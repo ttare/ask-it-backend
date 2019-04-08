@@ -1,6 +1,3 @@
-const likeOrDislikeFunction = require('../utils/helpers/likeOrDislikeFunction');
-const db = require('../db');
-
 module.exports = function (sequalize, DataTypes) {
   const Question = sequalize.define('Question', {
     id: {
